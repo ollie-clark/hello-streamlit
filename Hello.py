@@ -14,6 +14,7 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
+from streamlit.hello.utils import show_code
 
 LOGGER = get_logger(__name__)
 
@@ -24,7 +25,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# :balloon: Welcome to Streamlit!!!!")
 
     st.sidebar.success("Select a demo above.")
 
@@ -45,6 +46,8 @@ def run():
         - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
     )
+
+    show_code(run)
 
 
 if __name__ == "__main__":
