@@ -25,7 +25,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# :balloon: Welcome to Streamlit!!!!")
+    st.write("# :balloon: Welcome to Streamlit!!!")
 
     st.sidebar.success("Select a demo above.")
 
